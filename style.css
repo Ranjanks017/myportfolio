@@ -1,0 +1,497 @@
+.container {
+    display: flex;
+    background-color: rgb(211, 211, 219);
+    height: 1700px;
+    width: 900px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-1 {
+    background-color: rgb(7, 7, 46);
+    width: 900px;
+    height: 580px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 900px;
+    background-color: rgb(15, 15, 49);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-left: 10px;
+    color: blue;
+    font-weight: solid;
+    font-size: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-bar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+
+.hamburgen-menu {
+    display: flex;
+    width: 50px;
+    height: 36px;
+    padding-top: 6px;
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+.profile-section {
+    width: 900px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(7, 7, 46);
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: solid;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.profile-photo {
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 80px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.paragraph {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    flex-direction: column;
+    background-color: rgb(7, 7, 46);
+    
+}
+
+.paragraph-info {
+    width: 260px;
+    height: 200px;
+    padding-top: 0;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.resume {
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 130px;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 18px;
+    background-color: blueviolet;
+}
+
+
+.resume:hover {
+    cursor: pointer;
+}
+
+.container-2 {
+    display: flex;
+    width: 880px;
+    height: 400px;
+    flex-direction: column;
+    background-color: rgb(21, 21, 51);
+    padding-left: 20px;
+}
+
+.about {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.info-1, .info-2 {
+    width: 180px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.heading-1 {
+    padding: 0;
+    padding-right: 50px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.heading-2 {
+    padding: 0;
+    padding-right: 60px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.container-3 {
+    display: flex;
+    width: 900px;
+    height: 320px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-set {
+    width: 320px;
+    height: 120px;
+    margin-top: 40px;
+}
+
+.skill-set-2 {
+    width: 240px;
+    height: 140px;
+}
+
+.container-4 {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    background-color: rgb(15, 15, 49);
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    margin-right: 700px;
+    margin-top: 20px;
+    color: white;
+}
+
+.project-1 {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.project-1-img {
+    width: 340px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(161, 55, 55);
+    width: 900px;
+    height: 60px;
+}
+
+.contact {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.mail-logo, .linkedin-logo {
+    width: 30px;
+    height: 24px;
+    margin-left: 40px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        background-color: rgb(211, 211, 219);
+        height: 1700px;
+        width: 380px;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container-1 {
+        background-color: rgb(14, 14, 46);
+        width: 380px;
+        height: 520px;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        width: 380px;
+        background-color: rgb(15, 15, 49);
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+
+    .portfolio {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-weight: solid;
+        font-size: 30px;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .nav-bar a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px;
+    }
+
+    
+    .profile-section {
+        width: 380px;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .info {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: solid;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    
+    .profile-photo {
+        width: 90px;
+        height: 90px;
+        border: none;
+        border-radius: 80px;
+        margin-right: 80px;
+        margin-top: 10px;
+    }
+    
+    .paragraph {
+        display: flex;
+        width: 370px;
+        height: 370px;
+        padding-left: 10px;
+        flex-direction: column; 
+    }
+    
+    .paragraph-info {
+        padding-top: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-left: 0;
+        color: white;
+    }
+    
+    .resume {
+        margin-top: 60px;
+        width: 130px;
+        height: 60px;
+        font-size: 24px;
+        border: none;
+        border-radius: 18px;
+        background-color: blueviolet;
+    }
+
+    .container-2 {
+        display: flex;
+        width: 360px;
+        height: 400px;
+        flex-direction: column;
+        background-color: rgb(15, 15, 49);
+        padding-left: 20px;
+    }
+
+    .about {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+
+    .info-1, .info-2 {
+        width: 180px;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    .heading-1 {
+        padding: 0;
+        padding-right: 50px;
+        margin: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 4px;
+    }
+
+    .heading-2 {
+        padding: 0;
+        padding-right: 60px;
+        margin: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 4px;
+    }
+
+    .container-3 {
+        display: flex;
+        width: 380px;
+        height: 320px;
+        background-color: white;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .skills {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .skill-set {
+        width: 320px;
+        height: 120px;
+        margin-top: 40px;
+    }
+
+    .skill-set-2 {
+        width: 180px;
+        height: 140px;
+    }
+
+    .container-4 {
+        display: flex;
+        width: 380px;
+        height: 400px;
+        background-color: rgb(15, 15, 49);
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+        margin-right: 240px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .project-1 {
+        font-size: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .project-1-img {
+        width: 340px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .container-5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color:  lightblue;
+        width: 380px;
+        height: 60px;
+    }
+
+    .contact {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+    }
+
+    .mail-logo, .linkedin-logo {
+        width: 30px;
+        height: 24px;
+        margin-left: 40px;
+    }
+}
